@@ -90,7 +90,7 @@ h1{
     }
     .box .sub-box1{
         height: 70%;
-        width: 70%;
+        width: 80%;
     }
     .box .sub-box2{
         height: 100%%;
@@ -105,11 +105,11 @@ h1{
     }
     .box .sub-box1{
         width: 90%;
-        height: 80%;
+        height: 90%;
     }
     .box .sub-box2{
         width: 100%;
-        padding: 0px; 
+        /* padding: 20px;  */
     }
     .paragraph{
         font-size: 15px;
@@ -122,5 +122,10 @@ h1{
         margin: 15px;
         flex-direction: column;
         
+    }
+}
+@media(max-width: 320px){
+    .box .sub-box2{
+        height: 90px;
     }
 }
